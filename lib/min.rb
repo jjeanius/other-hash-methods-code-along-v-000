@@ -9,6 +9,6 @@ groceries = {
 }
 
 def get_the_min(groceries)
-  groceries.alphabetical_order.min
+  groceries.flatten.min
   #code your solution here!
 end
